@@ -2,12 +2,12 @@
 // клетки в правую нижнюю. Известно что ходить можно только на одну клетку вправо или вниз.
 
 
-public class WaysOfBoard
+public class MathWaysOnBoard
 {
-    public static int MathWaysOfBoard (int m, int n)
+    public static int SummWaysOnBoard (int m, int n)
     {
         if ((m == 0) || (n == 0))
         { return 1; }
-        return MathWaysOfBoard(m-1,n)+MathWaysOfBoard(m,n-1);
+        return SummWaysOnBoard(m-1,n)+SummWaysOnBoard(m,n-1);
     }
 }

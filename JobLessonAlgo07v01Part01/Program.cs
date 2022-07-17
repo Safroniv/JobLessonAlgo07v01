@@ -11,4 +11,4 @@ int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Здорово. подождите немного....");
 int[,] tableMassive = new int[m - 1, n - 1];
 Thread.Sleep(5000);
-Console.WriteLine($"А вот и результат - количество путей = {WaysOfBoard.MathWaysOfBoard(m - 1, n - 1)}");
+Console.WriteLine($"А вот и результат - количество путей = {MathWaysOnBoard.SummWaysOnBoard(m - 1, n - 1)}");
